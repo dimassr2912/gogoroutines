@@ -14,3 +14,12 @@ Channel direpresentasikan dengan tipe data chan
 Tidak perlu mengirim menggunakan pointer
 
 Kadang channel hanya ingin mengirim saja / menerima saja
+
+Buffer Channel: Buffer yang digunakan untuk menampung data antrian di channel
+
+Range channel: Ada kondisi ketika mengirim terus menerus, gunakan for range
+
+Saat menggunakan for range akan menerima dari 1 channel saja, tdak bisa banya
+
+Race condition: Goroutine tidak hanya berjalan concurent tetapi juga paralel
+    Bermasalah ketika manipulasi data yang sama oleh beberapa goroutine secara bersamaan
